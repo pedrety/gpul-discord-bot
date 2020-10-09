@@ -1,2 +1,2 @@
 # gpul-discord-bot
-Bot para Discord implementado cono Python
+Bot para Discord implementado con Python
