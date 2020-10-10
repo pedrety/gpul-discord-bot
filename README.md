@@ -28,11 +28,21 @@ python main.py
 
 ```
 Greetings:
-  hello Says hello
+  hello    Says hello
+Social:
+  facebook Show facebook social media information
+  meetup   Show meetup social media information
+  social   Show all social media information
+  twitter  Show twitter social media information
 Test:
-  ping  Says Pong
+  ping     Says Pong
+Websites:
+  gpul     Show GPUL website information
+  labs     Show LABS website information
+  school   Show SCHOOL website information
+  websites Show all websites information
 ​No Category:
-  help  Shows this message
+  help     Shows this message
 
 Type !help command for more info on a command.
 You can also type !help category for more info on a category.
