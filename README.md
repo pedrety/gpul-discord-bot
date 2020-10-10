@@ -37,3 +37,7 @@ Test:
 Type !help command for more info on a command.
 You can also type !help category for more info on a category.
 ```
+
+## License
+
+The source for gpul-discord-bot is released under the GNU General Public License as published by the Free Software Foundation, either version 3 of the License (See [LICENSE](https://github.com/pedrety/gpul-discord-bot/blob/main/LICENSE)).
