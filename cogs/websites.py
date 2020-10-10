@@ -48,5 +48,10 @@ class Websites(commands.Cog):
         """Show SCHOOL website information"""
         await ctx.send(f':gpul_school: - https://school.gpul.org/')
 
+    @commands.command()
+    async def hacks(self, ctx):
+        """Show CORUÑA HACKS website information"""
+        await ctx.send(f':gpul_coruna_hacks: - https://corunahacks.gpul.org/')
+
 def setup(bot):
 	bot.add_cog(Websites(bot))

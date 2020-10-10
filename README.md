@@ -38,6 +38,7 @@ Test:
   ping     Says Pong
 Websites:
   gpul     Show GPUL website information
+  hacks    Show CORUÑA HACKS website information
   labs     Show LABS website information
   school   Show SCHOOL website information
   websites Show all websites information
