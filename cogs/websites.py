@@ -31,6 +31,7 @@ class Websites(commands.Cog):
         await ctx.send(f'{gpul_emoji} - https://gpul.org/')
         await ctx.send(f':gpul_labs: - https://labs.gpul.org/')
         await ctx.send(f':gpul_school: - https://school.gpul.org/')
+        await ctx.send(f':gpul_coruna_hacks: - https://corunahacks.gpul.org/')
 
     @commands.command()
     async def gpul(self, ctx):
