@@ -6,6 +6,7 @@ class Test(commands.Cog):
 	
 	@commands.command()
 	async def ping(self, ctx):
+		"""Says Pong"""
 		await ctx.send("Pong")
 
 def setup(bot):
