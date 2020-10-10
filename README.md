@@ -1,13 +1,39 @@
-# gpul-discord-bot
-Bot para Discord implementado con Python
+# GPUL Discord Bot:
 
-# GPUL Discord Bot: INSTALLATION
+GPUL discord bot implemented with python.
 
-## Using venv
+<p align="middle">
+    <img width="45%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F1b%2FLogo_GPUL.svg%2F500px-Logo_GPUL.svg.png&f=1&nofb=1">
+  <img width="45%" src="https://discord.com/assets/e4923594e694a21542a489471ecffa50.svg">
+</p>
+
+## Installation
+
+### Using virtualenv
 
 ```bash
-python3 -m venv env
+python3 -m venv venv
 source env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python main.py
+```
+
+## Commands
+
+```
+Greetings:
+  hello Says hello
+Test:
+  ping  Says Pong
+​No Category:
+  help  Shows this message
+
+Type !help command for more info on a command.
+You can also type !help category for more info on a category.
 ```
