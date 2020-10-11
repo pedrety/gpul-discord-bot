@@ -29,9 +29,12 @@ class Websites(commands.Cog):
         """Show all websites information"""
         gpul_emoji = discord.utils.get(self.bot.emojis, name='gpul')
         await ctx.send(f'{gpul_emoji} - https://gpul.org/')
-        await ctx.send(f':gpul_labs: - https://labs.gpul.org/')
-        await ctx.send(f':gpul_school: - https://school.gpul.org/')
-        await ctx.send(f':gpul_coruna_hacks: - https://corunahacks.gpul.org/')
+        labs_emoji = discord.utils.get(self.bot.emojis, name='labs')
+        await ctx.send(f'{labs_emoji} - https://labs.gpul.org/')
+        school_emoji = discord.utils.get(self.bot.emojis, name='schools')
+        await ctx.send(f'{school_emoji} - https://school.gpul.org/')
+        coruna_hacks_emoji = discord.utils.get(self.bot.emojis, name='corunahacks')
+        await ctx.send(f'{coruna_hacks_emoji} - https://corunahacks.gpul.org/')
 
     @commands.command()
     async def gpul(self, ctx):
@@ -42,17 +45,20 @@ class Websites(commands.Cog):
     @commands.command()
     async def labs(self, ctx):
         """Show LABS website information"""
-        await ctx.send(f':gpul_labs: - https://labs.gpul.org/')
+        labs_emoji = discord.utils.get(self.bot.emojis, name='labs')
+        await ctx.send(f'{labs_emoji} - https://labs.gpul.org/')
 
     @commands.command()
     async def school(self, ctx):
         """Show SCHOOL website information"""
-        await ctx.send(f':gpul_school: - https://school.gpul.org/')
+        school_emoji = discord.utils.get(self.bot.emojis, name='schools')
+        await ctx.send(f'{school_emoji} - https://school.gpul.org/')
 
     @commands.command()
     async def hacks(self, ctx):
         """Show CORUÑA HACKS website information"""
-        await ctx.send(f':gpul_coruna_hacks: - https://corunahacks.gpul.org/')
+        coruna_hacks_emoji = discord.utils.get(self.bot.emojis, name='corunahacks')
+        await ctx.send(f'{coruna_hacks_emoji} - https://corunahacks.gpul.org/')
 
 def setup(bot):
 	bot.add_cog(Websites(bot))

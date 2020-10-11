@@ -31,7 +31,8 @@ class Social(commands.Cog):
         await ctx.send(f'{twitter_emoji} - https://twitter.com/gpul_')
         meetup_emoji = discord.utils.get(self.bot.emojis, name='meetup')
         await ctx.send(f'{meetup_emoji} - https://www.meetup.com/es-ES/GPUL-Labs/')
-        await ctx.send(':facebook: - https://www.facebook.com/gpulfic/')
+        facebook_emoji = discord.utils.get(self.bot.emojis, name='facebook')
+        await ctx.send(f'{facebook_emoji} - https://www.facebook.com/gpulfic/')
 
     @commands.command()
     async def twitter(self, ctx):
@@ -48,7 +49,8 @@ class Social(commands.Cog):
     @commands.command()
     async def facebook(self, ctx):
         """Show facebook social media information"""
-        await ctx.send(':facebook: - https://www.facebook.com/gpulfic/')
+        facebook_emoji = discord.utils.get(self.bot.emojis, name='facebook')
+        await ctx.send(f'{facebook_emoji} - https://www.facebook.com/gpulfic/')
 
 def setup(bot):
 	bot.add_cog(Social(bot))
