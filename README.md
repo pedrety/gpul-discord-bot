@@ -24,6 +24,18 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Deploy with docker
+
+### Create the image
+```bash
+docker build -t gpul_discord_bot_image .
+```
+
+### Run the container
+```bash
+docker run --rm -d --name gpul_discord_bot gpul_discord_bot_image
+```
+
 ## Commands
 
 ```
