@@ -46,6 +46,7 @@ Social:
   meetup   Show meetup social media information
   social   Show all social media information
   twitter  Show twitter social media information
+  twitch   Show twitch social media information
 Test:
   ping     Says Pong
 Websites:
